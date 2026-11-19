@@ -1,0 +1,45 @@
+========================================
+大嘴鱼 - Warudo 角色包 + 原素材
+========================================
+
+【一、Warudo 直接可用】
+  大嘴鱼_Lite.vrm    【推荐】轻量版：7.5 万三角面、1K 贴图、19 MB，加载快不易卡
+  大嘴鱼.vrm         高精度版：150 万三角面、4K 贴图、271 MB（画质好但很吃配置）
+  预览_站立.png
+  预览_表情.png
+
+【二、原素材（生成 VRM 的源文件）】
+  原素材\01_Hunyuan3D原始模型.fbx     混元3D 原始模型（未绑定，749,575 顶点）
+  原素材\02_大嘴鱼_绑定.blend         Blender 工程：19 骨骼 + 42 动作 + 9 表情形态键
+  原素材\03_大嘴鱼_绑定导出.fbx       骨骼 + 蒙皮 + 42 个动画 take + 9 个 morph target
+  原素材\04_动画库_UAL_Standard.zip   Quaternius UAL（CC0 动作来源）
+
+【Warudo 使用方法】
+  1. 把 .vrm 放到 Warudo 数据目录的 Characters 文件夹
+     （Warudo 菜单 → Open Data Folder → Characters）
+  2. Warudo 里添加角色（Character）→ 选择 大嘴鱼_Lite
+  3. 自带人形骨骼，可直接用 Warudo 内置动作、动作捕捉、待机动画
+
+【表情（VRM Expression）】
+  blink / blink_left / blink_right   眨眼
+  happy / angry / sad / relaxed / surprised
+  aa / ih / ou / ee / oh             口型（语音同步用）
+
+【规格】
+  骨骼：19 根（hips/spine/chest/neck/head + 双臂 + 双腿）
+  形态键：9 个（Blink_L/R、Brow_Up_L/R、Brow_Down_L/R、Jaw_Open、Mouth_Smile、Mouth_Frown）
+  动作：42 个（在 .blend / .fbx 中，VRM 不含动作）
+
+【常见问题】
+  Q: Warudo 打开全黑没界面？
+  A: 不是模型问题（模型还没导入时也会黑）。在 Steam 里给 Warudo 加启动参数
+     -force-d3d11 再启动即可；或先关掉卡住的 Warudo 进程再重开。
+
+【已知限制】
+  - 没有眼球骨骼，Warudo 视线追踪驱动不了眼球
+  - 高精度版 150 万面，低配机器会掉帧（优先用 Lite）
+  - 手指骨骼未制作
+
+【许可】
+  模型：Hunyuan3D 生成（用户自有）
+  动作：Quaternius Universal Animation Library (CC0 1.0)
